@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C14A6A441A051475003013CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14A6A431A051475003013CD /* Cocoa.framework */; };
+		C14A6A461A051475003013CD /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14A6A451A051475003013CD /* AppleScriptObjC.framework */; };
+		C14A6A501A051475003013CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C14A6A4E1A051475003013CD /* InfoPlist.strings */; };
+		C14A6A521A051475003013CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C14A6A511A051475003013CD /* main.m */; };
+		C14A6A561A051475003013CD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C14A6A541A051475003013CD /* Credits.rtf */; };
+		C14A6A581A051475003013CD /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = C14A6A571A051475003013CD /* AppDelegate.applescript */; };
+		C14A6A5B1A051475003013CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C14A6A591A051475003013CD /* MainMenu.xib */; };
+		C14A6A5D1A051475003013CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14A6A5C1A051475003013CD /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C14A6A401A051475003013CD /* ShutDownTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShutDownTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14A6A431A051475003013CD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C14A6A451A051475003013CD /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		C14A6A481A051475003013CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C14A6A491A051475003013CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C14A6A4A1A051475003013CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C14A6A4D1A051475003013CD /* ShutDownTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShutDownTimer-Info.plist"; sourceTree = "<group>"; };
+		C14A6A4F1A051475003013CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C14A6A511A051475003013CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C14A6A531A051475003013CD /* ShutDownTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShutDownTimer-Prefix.pch"; sourceTree = "<group>"; };
+		C14A6A551A051475003013CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C14A6A571A051475003013CD /* AppDelegate.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		C14A6A5A1A051475003013CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C14A6A5C1A051475003013CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C14A6A3D1A051475003013CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14A6A461A051475003013CD /* AppleScriptObjC.framework in Frameworks */,
+				C14A6A441A051475003013CD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C14A6A371A051474003013CD = {
+			isa = PBXGroup;
+			children = (
+				C14A6A4B1A051475003013CD /* ShutDownTimer */,
+				C14A6A421A051475003013CD /* Frameworks */,
+				C14A6A411A051475003013CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C14A6A411A051475003013CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C14A6A401A051475003013CD /* ShutDownTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C14A6A421A051475003013CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C14A6A431A051475003013CD /* Cocoa.framework */,
+				C14A6A451A051475003013CD /* AppleScriptObjC.framework */,
+				C14A6A471A051475003013CD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C14A6A471A051475003013CD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C14A6A481A051475003013CD /* AppKit.framework */,
+				C14A6A491A051475003013CD /* CoreData.framework */,
+				C14A6A4A1A051475003013CD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C14A6A4B1A051475003013CD /* ShutDownTimer */ = {
+			isa = PBXGroup;
+			children = (
+				C14A6A571A051475003013CD /* AppDelegate.applescript */,
+				C14A6A591A051475003013CD /* MainMenu.xib */,
+				C14A6A5C1A051475003013CD /* Images.xcassets */,
+				C14A6A4C1A051475003013CD /* Supporting Files */,
+			);
+			name = ShutDownTimer;
+			path = shutdown;
+			sourceTree = "<group>";
+		};
+		C14A6A4C1A051475003013CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C14A6A4D1A051475003013CD /* ShutDownTimer-Info.plist */,
+				C14A6A4E1A051475003013CD /* InfoPlist.strings */,
+				C14A6A511A051475003013CD /* main.m */,
+				C14A6A531A051475003013CD /* ShutDownTimer-Prefix.pch */,
+				C14A6A541A051475003013CD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C14A6A3F1A051475003013CD /* ShutDownTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C14A6A601A051475003013CD /* Build configuration list for PBXNativeTarget "ShutDownTimer" */;
+			buildPhases = (
+				C14A6A3C1A051475003013CD /* Sources */,
+				C14A6A3D1A051475003013CD /* Frameworks */,
+				C14A6A3E1A051475003013CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShutDownTimer;
+			productName = shutdown;
+			productReference = C14A6A401A051475003013CD /* ShutDownTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C14A6A381A051474003013CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = C14A6A3B1A051474003013CD /* Build configuration list for PBXProject "ShutDownTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C14A6A371A051474003013CD;
+			productRefGroup = C14A6A411A051475003013CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C14A6A3F1A051475003013CD /* ShutDownTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C14A6A3E1A051475003013CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14A6A501A051475003013CD /* InfoPlist.strings in Resources */,
+				C14A6A5D1A051475003013CD /* Images.xcassets in Resources */,
+				C14A6A561A051475003013CD /* Credits.rtf in Resources */,
+				C14A6A5B1A051475003013CD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C14A6A3C1A051475003013CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14A6A581A051475003013CD /* AppDelegate.applescript in Sources */,
+				C14A6A521A051475003013CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C14A6A4E1A051475003013CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C14A6A4F1A051475003013CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C14A6A541A051475003013CD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C14A6A551A051475003013CD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C14A6A591A051475003013CD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C14A6A5A1A051475003013CD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C14A6A5E1A051475003013CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C14A6A5F1A051475003013CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C14A6A611A051475003013CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shutdown/ShutDownTimer-Prefix.pch";
+				INFOPLIST_FILE = "shutdown/ShutDownTimer-Info.plist";
+				PRODUCT_NAME = ShutDownTimer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C14A6A621A051475003013CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shutdown/ShutDownTimer-Prefix.pch";
+				INFOPLIST_FILE = "shutdown/ShutDownTimer-Info.plist";
+				PRODUCT_NAME = ShutDownTimer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C14A6A3B1A051474003013CD /* Build configuration list for PBXProject "ShutDownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C14A6A5E1A051475003013CD /* Debug */,
+				C14A6A5F1A051475003013CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C14A6A601A051475003013CD /* Build configuration list for PBXNativeTarget "ShutDownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C14A6A611A051475003013CD /* Debug */,
+				C14A6A621A051475003013CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C14A6A381A051474003013CD /* Project object */;
+}
