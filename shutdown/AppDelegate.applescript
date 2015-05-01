@@ -9,6 +9,8 @@
 script AppDelegate
 	property parent : class "NSObject"
     
+    -- github 確認用
+    
     -- タイマー関連変数定義
     property NSTimer : class "NSTimer"
     property updateInterval : 1 --チェック間隔　単位：秒
